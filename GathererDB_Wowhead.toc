@@ -2,13 +2,13 @@
 ## 
 ## Title: GathererDB: |cffce0a11Wowhead|r
 ## Notes: Gatherer preloaded database, courtesy of |cffce0a11http://wowhead.com|r
-## Version: 1.0.2009-12-09
+## Version: 1.0.2010-08-07
 ##
 ## X-Website: http://www.gathereraddon.com
 ## X-Author: Norganna's AddOns - Nechckn, Project Administrator, MentalPower
 ## X-CompatibleLocales: enUS, enGB, deDE, frFR, koKR, zhCN, zhTW, esES
 ## X-Category: Tradeskill
-## X-Date: 2009-12-09
+## X-Date: 2010-08-07
 ##
 ## RequiredDeps: Gatherer
 
