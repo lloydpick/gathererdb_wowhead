@@ -1,0 +1,15 @@
+To import all this into your Gatherer you need to follow these simple steps...
+
+Download this zip file: http://github.com/lloydpick/gathererdb_wowhead/zipball/master
+
+Make a folder in your WoW Addons directory (World of Warcraft\Interface\AddOns) called 'GathererDB_Wowhead', then open the zip file, go into the directory in the zip file, then extract the files into that folder, eg. so you get this...
+
+World of Warcraft\Interface\AddOns\GathererDB_Wowhead\DB_WowheadData.lua
+World of Warcraft\Interface\AddOns\GathererDB_Wowhead\DB_WowheadMain.lua
+World of Warcraft\Interface\AddOns\GathererDB_Wowhead\GathererDB_Wowhead.toc
+
+(The reason for this step is because the zip file your downloading is being made automatically from my source control, so it puts in the extra folder which I can't control the name of)
+
+Then just load up WoW & enable the addon and login. Make sure that Gatherer HUD is enabled then go into Gatherer config, and you should see an entry for "Database", click that, then click the big Import button, then wait. After thats done you should be all good to go, you can now disable the GathererDB_Wowhead' addon if you want to save on memory.
+
+I'll update the addons data every so often, at that point you'll need to re-download the zip etc etc. I might put the addon on Curse to make it a bit more automated, but as I don't own the code to update within WoW i'm holding off for the time being
