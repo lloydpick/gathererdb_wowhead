@@ -2,7 +2,7 @@
 ## 
 ## Title: GathererDB: |cffce0a11Wowhead|r
 ## Notes: Gatherer preloaded database, courtesy of |cffce0a11http://wowhead.com|r
-## Version: 1.0.2010-10-22
+## Version: 1.0.2010-11-07
 ##
 ## X-Website: http://www.gathereraddon.com
 ## X-Author: Norganna's AddOns - Nechckn, Project Administrator, MentalPower
