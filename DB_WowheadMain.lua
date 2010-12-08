@@ -103,7 +103,7 @@ function lib:PerformImport()
 		updateFrame:SetHeight("50")
 		updateFrame:SetScript("OnUpdate", function() 
 			if not coroutine.resume(co) then
-				this:Hide()
+				updateFrame:Hide()
 			end
 		end)
 
