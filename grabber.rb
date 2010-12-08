@@ -61,7 +61,7 @@ puts "Done"
 objects = mines | herbs
 
 objects.each do |object|
-  object_id = object
+  object_id = object[0].to_i
 
   puts "Searching for #{object}... "
 
