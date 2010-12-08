@@ -6,7 +6,6 @@ ZONES = {
   "331" => 'ASHENVALE',
   "16" => 'AZSHARA',
   "3524" => 'AZUREMYST_ISLE',
-  "17" => 'BARRENS',
   "3525" => 'BLOODMYST_ISLE',
   "148" => 'DARKSHORE',
   "1657" => 'DARNASSUS',
@@ -28,8 +27,14 @@ ZONES = {
   "490" => 'UNGORO_CRATER',
   "618" => 'WINTERSPRING',
 
+  # Kalimdor - Cataclysm
+  "5695" => 'AHNQIRAJ_THE_FALLEN_KINGDOM',
+  "616" => 'MOUNT_HYJAL',
+  "4709" => 'SOUTHERN_BARRENS',
+  "17" => 'NORTHERN_BARRENS',
+  "5034" => 'ULDUM',
+
   # Eastern Kingdoms
-  "36" => 'ALTERAC_MOUNTAINS',
   "45" => 'ARATHI_HIGHLANDS',
   "3" => 'BADLANDS',
   "4" => 'BLASTED_LANDS',
@@ -59,6 +64,19 @@ ZONES = {
   "40" => 'WESTFALL',
   "11" => 'WETLANDS',
 
+  # Eastern Kingdoms - Cataclysm
+  "5095" => 'TOL_BARAD',
+  "4815" => 'KELPTHAR_FOREST',
+  "5145" => 'ABYSSAL_DEPTHS',
+  "4755" => 'RUINS_OF_GILNEAS_CITY',
+  # "" => 'TOL_BARAD_PENINSULA', # this doesn't seem to have zone_id on WoWHead
+  "5146" => 'VASHJIR',
+  "5144" => 'SHIMMERING_EXPANSE',
+  "4714" => 'RUINS_OF_GILNEAS',
+  "5339" => 'NORTHERN_STRANGLETHORN',
+  "4922" => 'TWILIGHT_HIGHLANDS',
+  "5287" => 'CAPE_OF_STRANGLETHORN',
+
   # Outland
   "3522" => 'BLADES_EDGE_MOUNTAINS',
   "3483" => 'HELLFIRE_PENINSULA',
@@ -81,7 +99,13 @@ ZONES = {
   "3711" => 'SHOLAZAR_BASIN',
   "67" => 'STORM_PEAKS',
   "4197" => 'LAKE_WINTERGRASP',
-  "66" => 'ZULDRAK'
+  "66" => 'ZULDRAK',
+
+  # Maelstrom
+  "4737" => 'KEZAN',
+  "5042" => 'DEEPHOLM',
+  "5416" => 'MAELSTROM',
+  "4720" => 'LOST_ISLES'
 }
 
 def lookup_zone(id)
