@@ -120,7 +120,7 @@ GathererDB.Wowhead.data = {'
 
 dbh = Mysql.real_connect("localhost", "root", "", "gatherer_db")
 
-zones = dbh.query("SELECT DISTINCT(zone) FROM objects")
+zones = dbh.query("SELECT DISTINCT(zone) FROM objects ORDER BY zone + 0 ASC")
 
 while zone = zones.fetch_row do
   unless lookup_zone(zone[0]).nil?
