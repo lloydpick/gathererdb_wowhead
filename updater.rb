@@ -18,7 +18,7 @@ puts "Done"
 
 print "  Moving file back into GIT... "
 system('cd ..')
-system('mv /home/limi/Code/DB_WowheadData.lua /home/limi/Code/gathererdb_wowhead/')
+system('mv /home/limi/repositories/DB_WowheadData.lua /home/limi/repositories/gathererdb_wowhead/')
 puts "Done"
 
 print "  Staging DB_WowheadData.lua... "
@@ -58,7 +58,7 @@ system("git commit -m \"updated data #{Time.now.strftime("%d-%m-%Y")}\"")
 puts "Done"
 
 print "  Pushing files to GitHub... "
-puts('git push origin master > /dev/null 2>&1')
+system('git push origin master > /dev/null 2>&1')
 puts "Done"
 
 puts "Finished!"

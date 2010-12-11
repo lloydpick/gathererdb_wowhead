@@ -6,7 +6,7 @@ require 'open-uri'
 puts "Done"
 
 print "Connecting to mySQL... "
-dbh = Mysql.real_connect("localhost", "root", "", "gatherer_db")
+dbh = Mysql.real_connect("localhost", "gatherer", "", "gatherer_db")
 puts "Done"
 
 print "Clearing old data... "

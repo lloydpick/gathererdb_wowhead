@@ -118,7 +118,7 @@ if not GathererDB.Wowhead.isLoading then return end
 
 GathererDB.Wowhead.data = {'
 
-dbh = Mysql.real_connect("localhost", "root", "", "gatherer_db")
+dbh = Mysql.real_connect("localhost", "gatherer", "", "gatherer_db")
 
 zones = dbh.query("SELECT DISTINCT(zone) FROM objects ORDER BY zone + 0 ASC")
 
